@@ -1,0 +1,43 @@
+h1, h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1:hover{
+    background-color: cadetblue;
+    color: red;
+}
+
+p, h4, li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h4 {
+    padding-top: 10px;
+    font-size: 18px;
+    border-top: 3px dashed brown;
+    text-align: center;
+}
+
+.titulos{
+    font-size: 21px;
+    background-color: rosybrown;
+    text-align: center;
+}
+
+.titulos:hover{
+    text-transform: uppercase;
+}
+
+#imagen{
+    height: 350px;
+    width: 550px;
+    border-radius: 2em;
+    
+}
