@@ -1,0 +1,49 @@
+h1, h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1:hover{
+    background-color: cadetblue;
+    color: red;
+}
+
+p, h4, li {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h4 {
+    padding-top: 10px;
+    font-size: 18px;
+    border-top: 3px dashed brown;
+    text-align: center;
+}
+
+.titulos{
+    font-size: 21px;
+    text-align: center;
+    background: rgb(0,11,36);
+    background: linear-gradient(90deg, rgba(0,11,36,1) 0%, rgba(9,121,76,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.titulos:hover{
+    text-transform: uppercase;
+}
+
+#imagen{
+    height: 350px;
+    border-radius: 2em;
+    box-shadow: 10px 10px 15px wheat;
+    
+}
+
+body{
+    font-family: 'Patrick Hand', cursive;
+}
