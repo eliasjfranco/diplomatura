@@ -1,0 +1,34 @@
+.contenedor{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flexbox;
+    background-color: white;
+    border-style: solid;
+}
+
+.colores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#rojo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#azul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#verde{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}

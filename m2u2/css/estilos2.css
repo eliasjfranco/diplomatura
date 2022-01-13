@@ -1,0 +1,39 @@
+.padre{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    border-style: solid;
+}
+
+.colores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#rojo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#azul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#verde{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
