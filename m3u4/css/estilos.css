@@ -1,0 +1,40 @@
+.cuadrados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boton{
+    width: 200px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+#c1{
+    background-color: blue;
+}
+
+#c2{
+    background-color: yellow;
+}
+
+#c3{
+    background-color: red;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-top: 5px;
+    width: 300px;
+}
+
+button{
+    margin-top: 5px;
+}
